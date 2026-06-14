@@ -1,0 +1,7 @@
+{
+  "name": "reporter",
+  "version": "1.0.0",
+  "dependencies": {
+    "csv-parse": "^5.5.0"
+  }
+}
