@@ -1,6 +1,4 @@
-FROM node:20-alpine
+FROM python:3.11-alpine
 WORKDIR /app
-COPY package.json .
-RUN npm install
-COPY report.js .
-CMD ["node", "report.js"]
+COPY generate.py .
+CMD ["python", "generate.py", "/data"]
